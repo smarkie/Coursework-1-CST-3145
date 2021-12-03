@@ -86,8 +86,8 @@ let lessons = [
         location: "South London",
         price: 80,
         image: "src/images/photo.jpg",
-        spaces: 7,
-        availableInventory : 7,
+        spaces: 4,
+        availableInventory : 4,
     },
 
 

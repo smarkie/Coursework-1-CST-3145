@@ -65,6 +65,7 @@
 <div v-else class="check">
 <div class="checkoutinfo">
 <h2>Checkout</h2>
+    
 <br>
     First Name: 
     <input v-model="enroll.fName"> <br>
@@ -98,7 +99,7 @@
 
 <script>
 
-
+<!--Vue is initiated here-->
 let onlinemart = new Vue({
     el: '#app',
     data: {
@@ -114,7 +115,7 @@ let onlinemart = new Vue({
         search: '',
         showProd: true,
 },
-    
+
     methods: {
             addToCart(prod){
             prod.spaces = prod.spaces -1;

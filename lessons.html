@@ -158,17 +158,13 @@ let onlinemart = new Vue({
             })
         },
     },
-
-
     computed: {
         cartItemCount(){
             return this.cart.length || ' ';
         },
-
         filteredLessons(){
             return this.lessons.filter((prod) => {
                 return (prod.lesson.toLowerCase().match(this.search) || prod.lesson.match(this.search) || prod.location.match(this.search) || prod.location.toLowerCase().match(this.search));
-                
             });
         },
         canPlaceenroll(){
